@@ -13,7 +13,7 @@ export async function POST(request: Request) {
 
     const { error: resendError } = await resend.emails.send({
       from: 'Gëstu Systems <onboarding@resend.dev>',
-      to: 'ngomabdoubabou@outlook.fr',
+      to: 'ngomabdoubabou@gmail.com',
       replyTo: email,
       subject: `[Gëstu Systems] Nouveau message de ${name}`,
       html: `
