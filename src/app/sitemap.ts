@@ -1,6 +1,6 @@
 import { MetadataRoute } from 'next';
 
-const baseUrl = 'https://gestulab-7lpx.vercel.app';
+const baseUrl = 'https://eabn.ink';
 
 export default function sitemap(): MetadataRoute.Sitemap {
   return [
