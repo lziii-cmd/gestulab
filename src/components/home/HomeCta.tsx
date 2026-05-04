@@ -117,7 +117,7 @@ export default function HomeCta() {
                       type="text"
                       required
                       placeholder={t('El Hadji Dupont', 'John Doe')}
-                      className="bg-white/5 border border-white/10 rounded-xl px-4 py-3 text-white placeholder:text-text-muted text-sm outline-none focus:border-indigo/50 focus:bg-white/8 transition-all"
+                      className="bg-white/10 border border-white/20 rounded-xl px-4 py-3 text-white placeholder:text-white/40 text-sm outline-none focus:border-indigo/60 focus:bg-white/15 transition-all"
                     />
                   </div>
                   <div className="flex flex-col gap-1.5">
@@ -129,7 +129,7 @@ export default function HomeCta() {
                       type="email"
                       required
                       placeholder="vous@example.com"
-                      className="bg-white/5 border border-white/10 rounded-xl px-4 py-3 text-white placeholder:text-text-muted text-sm outline-none focus:border-indigo/50 focus:bg-white/8 transition-all"
+                      className="bg-white/10 border border-white/20 rounded-xl px-4 py-3 text-white placeholder:text-white/40 text-sm outline-none focus:border-indigo/60 focus:bg-white/15 transition-all"
                     />
                   </div>
                 </div>
@@ -147,7 +147,7 @@ export default function HomeCta() {
                       name="phone"
                       type="tel"
                       placeholder="+221 77 000 00 00"
-                      className="bg-white/5 border border-white/10 rounded-xl px-4 py-3 text-white placeholder:text-text-muted text-sm outline-none focus:border-indigo/50 focus:bg-white/8 transition-all"
+                      className="bg-white/10 border border-white/20 rounded-xl px-4 py-3 text-white placeholder:text-white/40 text-sm outline-none focus:border-indigo/60 focus:bg-white/15 transition-all"
                     />
                   </div>
                   <div className="flex flex-col gap-1.5">
@@ -157,7 +157,7 @@ export default function HomeCta() {
                     <select
                       name="project"
                       required
-                      className="bg-white/5 border border-white/10 rounded-xl px-4 py-3 text-white text-sm outline-none focus:border-indigo/50 focus:bg-white/8 transition-all appearance-none cursor-pointer"
+                      className="bg-white/10 border border-white/20 rounded-xl px-4 py-3 text-white text-sm outline-none focus:border-indigo/60 focus:bg-white/15 transition-all appearance-none cursor-pointer"
                     >
                       <option value="" className="bg-dark-800 text-text-muted">
                         {t('Choisir...', 'Choose...')}
@@ -184,7 +184,7 @@ export default function HomeCta() {
                       "Décrivez votre projet, vos contraintes, votre délai idéal...",
                       "Describe your project, constraints, ideal timeline..."
                     )}
-                    className="bg-white/5 border border-white/10 rounded-xl px-4 py-3 text-white placeholder:text-text-muted text-sm outline-none focus:border-indigo/50 focus:bg-white/8 transition-all resize-none"
+                    className="bg-white/10 border border-white/20 rounded-xl px-4 py-3 text-white placeholder:text-white/40 text-sm outline-none focus:border-indigo/60 focus:bg-white/15 transition-all resize-none"
                   />
                 </div>
 
