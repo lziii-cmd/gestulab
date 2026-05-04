@@ -5,7 +5,7 @@ import './globals.css';
 
 const inter = Inter({ variable: '--font-inter', subsets: ['latin'], display: 'swap' });
 
-const baseUrl = 'https://gestulab.vercel.app';
+const baseUrl = 'https://gestulab-7lpx.vercel.app';
 
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
