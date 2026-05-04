@@ -53,14 +53,14 @@ export default function About() {
           <div>
             <h3 className="text-2xl font-extrabold text-navy mb-1">EL HADJI ABDOU BABOU NGOM</h3>
             <p className="text-accent font-semibold text-sm mb-5">
-              {t('Fondateur de Gëstu Lab — Développeur Full-Stack & Designer UI/UX', 'Founder of Gëstu Lab — Full-Stack Developer & UI/UX Designer')}
+              {t('Fondateur de Gëstu Systems — Développeur Full-Stack & Designer UI/UX', 'Founder of Gëstu Systems — Full-Stack Developer & UI/UX Designer')}
             </p>
             <p className="text-gray-600 leading-relaxed mb-6">
               {t(
                 "Je m'appelle EL HADJI ABDOU BABOU NGOM, développeur full-stack, designer UI/UX et expert en systèmes d'information, basé à Dakar, Sénégal. Depuis plus de 3 ans, je conçois et déploie des solutions numériques complètes pour des organisations de tous secteurs : entreprises de construction, institutions académiques, cabinets médicaux, ONG et startups. En 2025, j'ai fondé ",
                 "My name is El Hadji Abdou Babou Ngom, a full-stack developer, UI/UX designer and information systems expert based in Dakar, Senegal. For over 3 years, I have been designing and deploying complete digital solutions for organizations across all sectors: construction companies, academic institutions, medical practices, NGOs and startups. In 2025, I founded "
               )}
-              <strong className="text-navy">Gëstu Lab</strong>
+              <strong className="text-navy">Gëstu Systems</strong>
               {t(
                 " — une structure qui incarne ma vision : explorer chaque problème avec profondeur et construire des solutions qui durent. Je travaille en français et en anglais, avec des clients partout dans le monde, et je m'engage sur chaque projet avec rigueur, transparence et ambition.",
                 " — a structure that embodies my vision: exploring every problem in depth and building solutions that last. I work in French and English, with clients worldwide, and commit to every project with rigor, transparency and ambition."

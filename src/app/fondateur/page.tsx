@@ -5,8 +5,8 @@ import BackToTop from '@/components/shared/BackToTop';
 import FounderPage from '@/components/founder/FounderPage';
 
 export const metadata: Metadata = {
-  title: 'El Hadji Abdou Babou Ngom — Fondateur de Gëstu Lab',
-  description: 'Développeur full-stack, Designer UI/UX et Expert en systèmes d\'information. L\'homme derrière Gëstu Lab.',
+  title: 'El Hadji Abdou Babou Ngom — Fondateur de Gëstu Systems',
+  description: 'Développeur full-stack, Designer UI/UX et Expert en systèmes d\'information. L\'homme derrière Gëstu Systems.',
 };
 
 export default function Fondateur() {

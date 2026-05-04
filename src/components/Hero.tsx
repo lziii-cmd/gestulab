@@ -58,7 +58,7 @@ export default function Hero() {
       <div className="relative z-10 max-w-6xl mx-auto px-6 pt-24 pb-20 max-w-[820px] w-full">
         {/* Badge */}
         <span className="inline-block bg-accent/20 border border-accent/50 text-blue-light text-[0.82rem] font-semibold px-4 py-1.5 rounded-full tracking-wide mb-6">
-          {t('Fondateur — Gëstu Lab', 'Founder — Gëstu Lab')}
+          {t('Fondateur — Gëstu Systems', 'Founder — Gëstu Systems')}
         </span>
 
         {/* Title */}

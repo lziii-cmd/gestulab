@@ -8,6 +8,7 @@ import { useLang } from '@/context/lang';
 const navLinks = [
   { href: '/',           fr: 'Accueil',    en: 'Home' },
   { href: '/projets',    fr: 'Projets',    en: 'Projects' },
+  { href: '/blog',       fr: 'Blog',       en: 'Blog' },
   { href: '/fondateur',  fr: 'Fondateur',  en: 'Founder' },
   { href: '/#contact',   fr: 'Contact',    en: 'Contact' },
 ];
@@ -40,7 +41,7 @@ export default function Header() {
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2 group">
           <span className="text-xl font-black tracking-tight text-white">
-            Gëstu<span className="gradient-text">Lab</span>
+            Gëstu<span className="gradient-text">Systems</span>
           </span>
         </Link>
 

@@ -65,7 +65,7 @@ export default function Footer() {
 
       <div className="max-w-6xl mx-auto px-6 py-5 text-center">
         <p className="text-xs opacity-45">
-          Gëstu Lab © 2025 — EL HADJI ABDOU BABOU NGOM.{' '}
+          Gëstu Systems © 2025 — EL HADJI ABDOU BABOU NGOM.{' '}
           {t('Tous droits réservés.', 'All rights reserved.')}
         </p>
       </div>
