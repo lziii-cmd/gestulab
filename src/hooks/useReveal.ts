@@ -11,9 +11,13 @@ import { useEffect, useRef } from 'react';
  *   <section ref={ref}>
  *     <div className="reveal">...</div>
  *   </section>
+ *
+ * For div containers, pass the type explicitly:
+ *   const ref = useReveal<HTMLDivElement>();
+ *   <div ref={ref}>...</div>
  */
-export function useReveal(threshold = 0.12) {
-  const ref = useRef<HTMLElement | null>(null);
+export function useReveal<T extends HTMLElement = HTMLElement>(threshold = 0.12) {
+  const ref = useRef<T | null>(null);
 
   useEffect(() => {
     const container = ref.current;
@@ -39,5 +43,5 @@ export function useReveal(threshold = 0.12) {
     return () => observer.disconnect();
   }, [threshold]);
 
-  return ref as React.RefObject<HTMLElement>;
+  return ref as React.RefObject<T>;
 }

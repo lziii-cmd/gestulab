@@ -69,7 +69,7 @@ const portraits = [
 
 export default function StorySection() {
   const { lang, t } = useLang();
-  const ref = useReveal();
+  const ref = useReveal<HTMLDivElement>();
 
   return (
     <section className="py-24 bg-dark relative overflow-hidden">
